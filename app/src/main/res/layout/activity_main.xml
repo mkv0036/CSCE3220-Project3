@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="289dp"
+        android:layout_height="200dp"
+        android:src="@drawable/summer" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:drawableLeft="@drawable/sunny"
+        android:text="Summer"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:drawableLeft="@drawable/leaf"
+        android:text="Fall"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:drawableLeft="@drawable/snowflakes"
+        android:text="Winter"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
